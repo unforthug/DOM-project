@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div1">
+        <h2>iPhone 13 Pro max</h2>
+        <button><img onclick="changeHeart(0)" class="heart" src="./img/like.png" alt="X" width=15px height=15px/></button>
+        <button><img class="close" onclick="removeit(0)" src="./img/close.png" alt="X" width=15px height=15px/></button>
+        <image src="./img/iPhone-13-Pro-a.jpg" alt="iPhone 13 Pro" width=200px heigth=100px/>
+        <div>
+            <button onclick="Minus(0),sum()" id="btn11" type="btn-" border=1px >-</button>
+            <p class="counter1" width=10px>0</p>
+            <button onclick="add(0),sum()" id="btn21" type="btn+" border=1px>+</button>
+        </div>
+        <h3>Total = <p class="total0">0</p></h3>
+    </div>
+
+
+    <div class="div1">
+        <h2>iPhone 12</h2>
+        <button><img onclick="changeHeart(1)" class="heart" src="./img/like.png" alt="X" width=15px height=15px/></button>
+        <button><img class="close" onclick="removeit(1)" src="./img/close.png" alt="X" width=15px height=15px/></button>
+        <image src="./img/iphone-12.jpg" alt="iPhone 12" width=200px heigth=100px/>
+        <div>
+            <button onclick="Minus(1),sum()" type="btn-" border=1px>-</button>
+            <p class="counter1" width=10px>0</p>
+            <button onclick="add(1),sum()" type="btn+" border=1px>+</button>
+        </div>
+        <h3>Total = <p class="total1">0</p></h3>
+    </div>
+
+
+    <div class="div1">
+        <h2>Phone Oppo</h2>
+        <button><img onclick="changeHeart(2)" class="heart" src="./img/like.png" alt="X" width=15px height=15px/></button>
+        <button><img class="close" onclick="removeit(2)" src="./img/close.png" alt="X" width=15px height=15px/></button>
+        <image src="./img/phone2.jpg" alt="Oppo" width=120px heigth=50px/>
+        <div>
+            <button onclick="Minus(2),sum()" type="btn-" border=1px>-</button>
+            <p class="counter1" width=10px>0</p>
+            <button onclick="add(2),sum()" type="btn+" border=1px>+</button>
+            <h3>Total = <p class="total2">0</p></h3>
+        </div>
+        
+    </div>
+  
+
+    <h1>Total = <p class="Totals" >0</p></h1>
+</body>
+<script src="Dom.js"></script>
+</html>
